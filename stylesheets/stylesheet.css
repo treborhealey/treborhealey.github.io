@@ -248,11 +248,21 @@ dl p {
   font-style: italic;
 }
 
-hr {
+/* hr {
   height: 1px;
   margin-bottom: 5px;
   border: none;
   background: url('../images/bg_hr.png') repeat-x center;
+} */
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    /* margin: 1em 0; */
+    margin-bottom: 5px;
+    padding: 0;
 }
 
 table {
