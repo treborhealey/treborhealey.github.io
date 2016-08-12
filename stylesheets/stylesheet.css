@@ -74,6 +74,11 @@ Theme Styles
   -webkit-font-smoothing: antialiased;
 }
 */
+body {
+  /* font: normal normal 16px 'Trebuchet MS',Trebuchet,sans-serif; */
+  font-size: 16px;
+  font-family: 'Trebuchet MS', Trebuchet, Helvetica, Arial, sans-serif;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
@@ -390,7 +395,7 @@ Full-Width Styles
 #main_content {
   padding: 20px;
   /* padding-top: 10px; */
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.7);
   /* background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/travel/bg_white_50.png) repeat scroll top center; */
 }
 
