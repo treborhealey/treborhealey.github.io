@@ -222,10 +222,14 @@ ul, ol, dl {
   margin-bottom: 15px
 }
 
+ul li, ol li {
+  margin-bottom: 8px;
+}
+
 ul {
   list-style-position: inside;
   list-style: disc;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 ol {
