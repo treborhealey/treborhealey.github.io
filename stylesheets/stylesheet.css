@@ -155,7 +155,7 @@ strong {
   font-weight: bold;
 }
 
-img {
+img:not(.smicon) {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
@@ -168,6 +168,10 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+}
+
+.smicon {
+  padding: 0px 0px 0px 5px;
 }
 
 p img {
@@ -317,6 +321,24 @@ Full-Width Styles
   color: #fff;
   /* background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%; */
   background: url('../images/van-greenish-26x.png') #0090ff no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+#forkme_banner a {
+  color: #fff;
+}
+
+#book_tour_button {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 10px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
