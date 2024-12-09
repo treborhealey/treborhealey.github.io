@@ -439,7 +439,9 @@ Full-Width Styles
   background: #212121;
 }
 
-
+booktitle {
+  font-style: italic;
+}
 
 /*******************************************************************************
 Small Device Styles
